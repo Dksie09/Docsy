@@ -135,7 +135,7 @@ We welcome contributions! Here’s how to get started:
 5. Create a Pull Request.
 
 ## Resources
-- [Docsy Blog]()
+- [Docsy Blog](https://duckwhocodes.hashnode.dev/docsy)
 - [Modus Docs](https://modus.hypermode.io/)
 - [Dgraph Docs](https://dgraph.io/docs/)
 - [Hypermode Community](https://discord.gg/hypermode)
