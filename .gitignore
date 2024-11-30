@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build artifacts
+extension/build/
+dgraph-backend/build/
+modus-backend/build/
+
+# Environment files
+*.env
+.env.*
+**/*.env
+
+# Logs and temporary files
+*.log
+**/*.log
+*.tmp
+**/*.tmp
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+.DS_Store
+*.swp
