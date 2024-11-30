@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "AI Doc Navigator",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Space",
+        "mac": "Alt+Space"
+      },
+      "description": "Open the popup"
+    }
+  },
+  "permissions": ["tabs", "activeTab", "storage", "windows"],
+  "host_permissions": ["http://localhost:8686/*"]
+}

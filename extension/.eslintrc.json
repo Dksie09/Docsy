@@ -1,0 +1,10 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "globals": {
+    "chrome": "readonly"
+  },
+  "extends": ["react-app", "react-app/jest"]
+}
